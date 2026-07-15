@@ -1,1 +1,0 @@
-import Link from "next/link";export default function N(){return <div className="shell page"><h1>Page not found.</h1><p>TTT only supports BrokeMace Kit, OPManhunt, and BowBoostMace.</p><Link className="btn" href="/">Return home</Link></div>}
