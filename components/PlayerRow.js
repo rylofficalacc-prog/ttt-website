@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function PlayerRow({p,tier,n}){return <Link className="player" href={`/players/${p.username}`}><b>#{n}</b><img src={`https://mc-heads.net/avatar/${p.username}/64`} alt=""/><span><strong>{p.username}</strong><small>{p.region}</small></span><em className={`tier t-${tier.replace('+','p')}`}>{tier}</em></Link>}

@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function Header(){return <header><Link className="brand" href="/">TTT<span>Minecraft Tier Testing</span></Link><nav><Link href="/">Home</Link><Link href="/rankings/brokemace">Rankings</Link><a href="#results">Results</a><a href="#discord">Discord</a></nav></header>}
